@@ -9,6 +9,7 @@ import { SiSubstack } from 'react-icons/si';
 const Index: NextPage = () => {
   return (
     <div className='flex-col flex items-center justify-between h-full w-full py-8'>
+      
       <div className='flex-col items-center h-full w-72 space-y-10 justify-center'>
         {TWITTER.button !== undefined ? (
           <ImgButton
